@@ -1,6 +1,11 @@
+//header guard to make sure is not redefined in other header and class files
+#ifndef MEDIA_H
+#define MEDIA_H
+
 #include <iostream>
 #include <cstring>
-#include <string.h>
+
+using namespace std;
 
 class Media{ //class definition
  public:
@@ -12,4 +17,5 @@ class Media{ //class definition
   char title[50]; //stores title
   int year; //stores year
 };
-  
+
+#endif //end of header guard

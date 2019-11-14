@@ -16,9 +16,9 @@ char* Media::getTitle(){ //returns title pointer
 }
 
 int* Media::getYear(){ //returns year pointer
-  return year;
+  return &year;
 }
 
 int Media::getType(){ //returns type number (0 for movie, etc.)
-  return type;
+  return 0;
 }
