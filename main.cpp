@@ -1,3 +1,10 @@
+/*
+Author: Devin Leigh
+Date: 11/13
+Program: class project, media database using multiple classes
+ */
+
+
 #include <iostream>
 #include <vector>
 #include <cstring>
