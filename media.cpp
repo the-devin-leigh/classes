@@ -6,16 +6,16 @@
 using namespace std;
 
 Media::Media(){
-  title = newTitle;
+  /*title = newTitle;
   year = 0;
-  type = 0;
+  type = 0;*/
 }
 
-string* Media::getTitle(){
+char* Media::getTitle(){
   return title;
 }
 
-int Media::getYear(){
+int* Media::getYear(){
   return year;
 }
 

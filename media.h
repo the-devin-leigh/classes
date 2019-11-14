@@ -5,12 +5,11 @@
 class Media{
  public:
   Media();
-  string* getTitle();
-  int getYear();
+  char* getTitle();
+  int* getYear();
   virtual int getType();
  private:
-  string* title;
+  char title[50];
   int year;
-  int type;
 };
   
